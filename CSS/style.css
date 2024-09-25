@@ -1,0 +1,105 @@
+header{
+    height: 5em;
+    width:100%;
+    background-color: rgb(49, 73, 98);
+    overflow: hidden;
+}
+header nav{
+    text-transform: uppercase;
+}
+header nav a{
+    font-size: 100%;
+    color: whitesmoke;
+    padding-left: 2.5em;
+    line-height: 3em;
+}
+header nav li{
+    display: inline-block;
+}
+.special{
+    background-color: orange;
+    padding: 0.5em;
+    margin-left: 1em;
+    
+}
+.leftNav{
+    float: left;
+    width:60%;
+}
+.fa-solid.fa-bullseye{
+    color: aliceblue;
+    font-size: 150%;
+}   
+.fa-solid.fa-caret-down{
+    font-size: small;
+}
+.rightNav{
+    float:right;
+    width: 30%;
+    padding-right: 1em;
+    line-height: 2em;
+}
+.container{
+    width: 100%;
+    height:100%;
+    background-color:rgba(170, 65, 0, 0.8);
+    background-image: url('https://images7.alphacoders.com/133/1337390.png');
+    background-blend-mode: overlay;
+    margin:0 auto;
+}
+main{
+    margin:0 auto;
+    height: 70%;
+    text-align: center;
+}
+body, html{
+    height: 100%;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    padding-top: 5%;
+    color:aliceblue;
+    font-size: 400%;
+}
+.links{
+    padding-top: 4em;
+}
+.links a{   
+    display: inline block;
+    border:solid;
+    padding:1.5%;
+    color: aliceblue;
+    border-radius: 0.2em;
+    font-size: 130%;
+    font-weight: bold;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+main p{
+    font-size: 170%;
+    margin:0 auto;
+    width:50%;
+    color: aliceblue;
+}
+footer{
+    height: 17%;
+    background-color: aliceblue;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+footer h2{
+    width: 40%;
+    margin: 0 auto;
+    color:rgb(27, 59, 97);
+    font-weight: bolder;
+    font-size: 200%;
+    position:absolute;
+    bottom:0;
+    left:30%;
+    right:30%;
+    margin-bottom: 1%;
+}
