@@ -45,6 +45,7 @@ header nav li{
     background-color:rgba(170, 65, 0, 0.8);
     background-image: url('https://images7.alphacoders.com/133/1337390.png');
     background-blend-mode: overlay;
+    background-size:cover;
     margin:0 auto;
 }
 main{
@@ -85,7 +86,7 @@ main p{
     color: aliceblue;
 }
 footer{
-    height: 17%;
+    height: 20%;
     background-color: aliceblue;
     width: 100%;
     text-align: center;
